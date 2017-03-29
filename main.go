@@ -10,7 +10,6 @@ import (
 )
 
 var args struct {
-	// Verbose bool `short:"v" long:"verbose" description:"Show verbose information"`
 	AccessKey string `long:"access-key" description:"Kirk AccessKey" required:"true"`
 	SecretKey string `long:"secret-key" description:"Kirk SecretKey" required:"true"`
 	Host      string `long:"host" description:"Kirk API Host" required:"true"`

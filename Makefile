@@ -11,5 +11,7 @@ kirk-ssh.linux.386: $(SOURCES)
 	GOOS=linux GOARCH=386 go build -ldflags="-s -w" -o kirk-ssh.linux.386 .
 kirk-ssh.linux.amd64: $(SOURCES)
 	GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o kirk-ssh.linux.amd64 .
+glide.lock: glide.yaml
+	glide install -v
 clean:
 	rm -f $(ALL)
