@@ -1,0 +1,13 @@
+package: github.com/bachue/kirk-ssh
+import:
+- package: github.com/jessevdk/go-flags
+  version: ~1.2.0
+- package: qiniupkg.com/kirk
+  version: ~3.0.1
+  repo: https://github.com/qiniu/kirk.git
+  subpackages:
+  - kirksdk
+  - kirksdk/mac
+- package: golang.org/x/net
+  subpackages:
+  - context

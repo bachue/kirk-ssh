@@ -1,0 +1,34 @@
+hash: 05d5f62cb40eadd652e7a812f843d9954774ba0c6b082213f38f0d665fc70b6b
+updated: 2017-03-29T14:12:32.166307036+08:00
+imports:
+- name: github.com/jessevdk/go-flags
+  version: 48cf8722c3375517aba351d1f7577c40663a4407
+- name: github.com/Sirupsen/logrus
+  version: 4b6ea7319e214d98c938f12692336f7ca9348d6b
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 30de6d19a3bd89a5f38ae4028e23aaa5582648af
+  subpackages:
+  - unix
+- name: qiniupkg.com/api.v7
+  version: e4122ada30952518d4745bb9f8dd87bef65a498f
+  subpackages:
+  - conf
+- name: qiniupkg.com/kirk
+  version: 4a6727032bf5933c2005ec3d3bb89e0f20a18817
+  repo: https://github.com/qiniu/kirk.git
+  subpackages:
+  - kirksdk
+  - kirksdk/mac
+- name: qiniupkg.com/x
+  version: 946c4a16076d6d98aeb78619e2bd4012357f7228
+  subpackages:
+  - bytes.v7
+  - bytes.v7/seekable
+  - ctype.v7
+  - reqid.v7
+  - rpc.v7
+testImports: []
